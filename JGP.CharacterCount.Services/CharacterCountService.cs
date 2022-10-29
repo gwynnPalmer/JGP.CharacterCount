@@ -5,9 +5,22 @@ using JGP.CharacterCount.Services.Counters;
 namespace JGP.CharacterCount.Services;
 
 /// <summary>
+///     Interface ICharacterCountService
+/// </summary>
+public interface ICharacterCountService
+{
+    /// <summary>
+    ///     Counts the specified text.
+    /// </summary>
+    /// <param name="text">The text.</param>
+    /// <returns>CountModel.</returns>
+    CountModel Count(string text);
+}
+
+/// <summary>
 ///     Class CharacterCountService.
 /// </summary>
-public class CharacterCountService
+public class CharacterCountService : ICharacterCountService
 {
     /// <summary>
     ///     The calculator
