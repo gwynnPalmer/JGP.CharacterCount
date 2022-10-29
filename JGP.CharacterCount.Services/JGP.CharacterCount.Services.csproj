@@ -7,7 +7,7 @@
 		<Description>Adds useful character counting services</Description>
 		<Authors>Joshua Gwynn-Palmer</Authors>
 		<Copyright>Joshua Gwynn-Palmer</Copyright>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<PackageId>JGP.CharacterCount.Services</PackageId>
 		<PackageDescription>Adds useful character counting services</PackageDescription>
 		<RepositoryUrl>https://github.com/gwynnPalmer/JGP.CharacterCount</RepositoryUrl>

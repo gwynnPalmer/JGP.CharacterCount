@@ -59,6 +59,7 @@ public class CharacterCountService : ICharacterCountService
 
         return new CountModel
         {
+            Text = model.Text,
             SpacesCount = Count(TextCounterType.Space, model.Text),
             CharacterCount = Count(TextCounterType.Character, model.Text),
             UniqueCharacterCount = Count(TextCounterType.UniqueCharacter, model.Text),

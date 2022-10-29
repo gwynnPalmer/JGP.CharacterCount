@@ -7,7 +7,7 @@
 		<Description>Adds core Models for use with Count Services</Description>
 		<Authors>Joshua Gwynn-Palmer</Authors>
 		<Copyright>Joshua Gwynn-Palmer</Copyright>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<PackageId>JGP.CharacterCount.Core</PackageId>
 		<PackageDescription>Adds core Models for use with Count Services</PackageDescription>
 		<RepositoryUrl>https://github.com/gwynnPalmer/JGP.CharacterCount</RepositoryUrl>
