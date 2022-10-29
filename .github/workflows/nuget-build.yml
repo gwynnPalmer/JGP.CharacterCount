@@ -35,6 +35,9 @@ jobs:
     - name: Run tests
       run: dotnet test /p:Configuration=$BUILD_CONFIG --no-restore --no-build --verbosity normal
 
+    - name: Pack Core project
+      run: dotnet pack **/*JGP.CharacterCount.Core.csproj --configuration $BUILD_CONFIG --include-symbols -p:SymbolPackageFormat=snupkg -o .
+
     - name: Pack Services project
       run: dotnet pack **/*JGP.CharacterCount.Services.csproj --configuration $BUILD_CONFIG --include-symbols -p:SymbolPackageFormat=snupkg -o .
 

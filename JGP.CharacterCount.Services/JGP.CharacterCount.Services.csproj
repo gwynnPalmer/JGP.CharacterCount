@@ -1,23 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-	  <Description>Adds useful character counting services</Description>
-	  <Authors>Joshua Gwynn-Palmer</Authors>
-	  <Copyright>Joshua Gwynn-Palmer</Copyright>
-	  <Version>1.0.1</Version>
-	  <PackageId>JGP.CharacterCount.Services</PackageId>
-	  <PackageDescription>Adds useful character counting services</PackageDescription>
-	  <RepositoryUrl>https://github.com/gwynnPalmer/JGP.CharacterCount</RepositoryUrl>
-	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	  <PackageReadmeFile>README.md</PackageReadmeFile>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Description>Adds useful character counting services</Description>
+		<Authors>Joshua Gwynn-Palmer</Authors>
+		<Copyright>Joshua Gwynn-Palmer</Copyright>
+		<Version>1.0.2</Version>
+		<PackageId>JGP.CharacterCount.Services</PackageId>
+		<PackageDescription>Adds useful character counting services</PackageDescription>
+		<RepositoryUrl>https://github.com/gwynnPalmer/JGP.CharacterCount</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\JGP.CharacterCount.Core\JGP.CharacterCount.Core.csproj" />
-    <None Include="..\README.md" Pack="True" PackagePath="\" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\JGP.CharacterCount.Core\JGP.CharacterCount.Core.csproj" />
+		<None Include="..\README.md" Pack="True" PackagePath="\" />
+		<None Include="..\LICENSE.txt" Pack="True" PackagePath="\" />
+	</ItemGroup>
 
 </Project>

@@ -16,9 +16,9 @@ Example usage:
 
         public SomeClass PerformSomeAction(SomeClass someClass)
         {
-			ICharacterCountService service = new CharacterCountService();
+        	ICharacterCountService service = new CharacterCountService();
         	var model = service.Count(someClass.Text);
-			// Do stuff.
+        	// Do stuff.
         }
 	
 I built this to use for a page on my website.
