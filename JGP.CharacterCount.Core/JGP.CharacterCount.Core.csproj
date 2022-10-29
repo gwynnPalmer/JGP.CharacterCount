@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Description>Adds core Models for use with Count Services</Description>
+		<Authors>Joshua Gwynn-Palmer</Authors>
+		<Copyright>Joshua Gwynn-Palmer</Copyright>
+		<Version>1.0.0</Version>
+		<PackageId>JGP.CharacterCount.Core</PackageId>
+		<PackageDescription>Adds core Models for use with Count Services</PackageDescription>
+		<RepositoryUrl>https://github.com/gwynnPalmer/JGP.CharacterCount</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="True" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
